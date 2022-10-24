@@ -25,9 +25,6 @@ use App\Http\Controllers\UserPembangunanController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', [LoginController::class,'show'])->name('show');
-
 // Auth::routes();
 Route::get('/login', [LoginController::class,'show'])->name('show');
 Route::post('/login', [LoginController::class,'login'])->name('login');

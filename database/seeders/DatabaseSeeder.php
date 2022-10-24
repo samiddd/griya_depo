@@ -18,24 +18,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         { $this->call([
-            AboutSeeder::class,
-            SyaratSeeder::class,
-            ProdukSeeder::class,
-            GaleriSeeder::class,
-            PostSeeder::class,
-            CategoryPostSeeder::class,
-            IdentitasPerusahaanSeeder::class,
-            IndoRegionProvinceSeeder::class,
-            IndoRegionRegencySeeder::class,
-            IndoRegionDistrictSeeder::class,
-
-            AsosiasiSeeder::class,
-            SliderSeeder::class,
-            TestimoniSeeder::class,
-            MengapaKamiSeeder::class,
-            FAQSeeder::class,
-
-
+           
             RoleSeeder::class,
             userseeder::class,
             MitraSeeder::class,
